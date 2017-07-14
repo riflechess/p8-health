@@ -23,3 +23,9 @@ The utility requires the references to the FileNet P8 Content Platform Engine AP
 
 The core of the project resides in HealthCheck.java.  The encryption piece in AESencrp.java is taken from [here.](http://www.code2learn.com/2011/06/encryption-and-decryption-of-data-using.html)
 
+**AESencrypt.java** encrypting credentials
+**SendEmail.java** hmmm I wonder
+**HealthCheck.java** core of project code
+**config.properties** variables and connection info
+**runHealthCheck.sh** run from cron using JRE
+**plotTrends.sh** use gnuplots to build trending graph from .csv
