@@ -11,6 +11,8 @@ Supported operations:
 * Document deletion (each Object Store)
 * Identify expired queueitem entries (each Object Store)
 
+## Prereqs
+
 The utility requires the references to the FileNet P8 Content Platform Engine API, including:
 
 * listener.jar
@@ -21,6 +23,8 @@ The utility requires the references to the FileNet P8 Content Platform Engine AP
 * xlxpScannerUtils.jar
 * javax.mail.jar
 
+## Manifest
+
 The core of the project resides in HealthCheck.java.  The encryption piece in AESencrp.java is taken from [here.](http://www.code2learn.com/2011/06/encryption-and-decryption-of-data-using.html)
 
 * **AESencrypt.java** encrypting credentials
@@ -29,3 +33,9 @@ The core of the project resides in HealthCheck.java.  The encryption piece in AE
 * **config.properties** variables and connection info
 * **runHealthCheck.sh** run from cron using JRE
 * **plotTrends.sh** use gnuplots to build trending graph from .csv
+
+## Trending
+
+The following is a sample of the trending graph we generate with gnuplots and distribute.
+
+![example image](trending.JPG "Trending")
