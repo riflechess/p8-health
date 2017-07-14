@@ -32,7 +32,7 @@ The core of the project resides in HealthCheck.java.  The encryption piece in AE
 * **HealthCheck.java** core of project code
 * **config.properties** variables and connection info
 * **runHealthCheck.sh** run from cron using JRE
-* **plotTrends.sh** use gnuplots to build trending graph from .csv
+* **plotTrends.sh** build and send trending graph from .csv (requires gnuplot)
 
 ## Trending
 
