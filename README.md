@@ -21,5 +21,5 @@ The utility requires the references to the FileNet P8 Content Platform Engine AP
 * xlxpScannerUtils.jar
 * javax.mail.jar
 
-The core of the project resides in HealthCheck.java.
+The core of the project resides in HealthCheck.java.  The encryption piece in AESencrp.java is taken from [here.](http://www.code2learn.com/2011/06/encryption-and-decryption-of-data-using.html)
 
