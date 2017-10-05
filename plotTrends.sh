@@ -28,7 +28,7 @@ set title "PROD Object_Store_Name Trending"
 plot '< tail -n +2 trending_Object_Store_Name.csv | grep Object_Store_Name | tail -n $SNAPSHOTS |cut -f 1 --complement -d" "' using 1:3 title "Domain Connect", '' using 1:4 title "Search", '' using 1:6 title "Upload", '' using 1:7 title "Delete"
 
 set output 'trend_Object_Store_Name2.png'
-set title "MCM PROD Administration"
+set title "PROD Object Store Name"
 plot '< tail -n +2 trending_Object_Store_Name2.csv | grep Object_Store_Name2 | tail -n $SNAPSHOTS | cut -f 1 --complement -d" "' using 1:3 title "Domain Connect", '' using 1:4 title "Search", '' using 1:6 title "Upload", '' using 1:7 title "Delete"
 
 eor
