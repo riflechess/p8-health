@@ -1,6 +1,6 @@
 # FileNet P8 HealthCheck Utility
 
-This utility performs lower level functional testing on FileNet P8 Content Platform Engine object stores and alerts if any issues are encountered.  It is intended to be invoked as a cron job at regular intervals.
+This utility performs lower level functional testing on [FileNet P8 Content Platform Engine](https://www.ibm.com/docs/en/filenet-p8-platform) object stores and alerts if any issues are encountered.  It is intended to be invoked as a cron job at regular intervals.
 
 Each operation is timed and written to a .csv file, which we can send out metrics on.
 
